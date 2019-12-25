@@ -40,5 +40,5 @@ def CountKhmerChar(string):
                                         reverse=True)}
     resulttext = ''
     for j in sortdict:
-        resulttext = resulttext + j + ' : ' + str(sortdict[j]) + ',  <br>'
+        resulttext = resulttext + j + ' : ' + str(sortdict[j]) + ', '
     return resulttext
